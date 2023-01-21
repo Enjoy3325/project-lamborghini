@@ -71,7 +71,7 @@ body {
 }
 
 .menu-right {
-    padding-right: 80px;
+    padding-right: 168px;
 }
 
 .menu-link {
@@ -85,8 +85,9 @@ body {
 
 .logo {
     display: flex;
+    width: 83px;
     align-self: center;
-    margin-left: -45px;
+   
 }
 
 .promo {
