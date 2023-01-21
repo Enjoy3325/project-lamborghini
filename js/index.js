@@ -1,12 +1,39 @@
+const menuBtn = document.querySelector('.menu-btn');
+const menuMobile = document.querySelector('.menu-mobile');
+
+menuBtn.addEventListener('click', () => {
+    menuMobile.classList.toggle('menu--open')
+})
 const swiper = new Swiper('.swiper', {
     loop: true,
-    slidesPerView: 2,
-    spaceBetween: 20,
     navigation: {
     nextEl: '.swiper-button-right',
     prevEl: '.swiper-button-left',
   },
-  
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+       
+        },
+        320: {
+            slidesPerView: 1
+        },
+        340: {
+            slidesPerView: 1
+        },
+        480: {
+            slidesPerView: 1
+        },
+        560: {
+            slidesPerView: 1
+        },
+        669: {
+            slidesPerView: 1
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,},
+  }
   
 
 });
@@ -141,7 +168,7 @@ function initMap() {
             }
         ]
     }
-]
+],
   });
 }
  

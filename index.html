@@ -1,65 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lamborghini</title>
-  
+
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <!-- <link rel="stylesheet" href="swiper-bundle.min.css"> -->
-    <!-- <link
+  <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     /> -->
   <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-<header class="header">
-  <div class="big-container">
-    <nav class="nav">
-      <ul class="menu-list menu-left">
-        <li class="menu-item">
-          <a  class="menu-link" href="#race">About the race</a>
-        </li>
-        <li class="menu-item"><a class="menu-link" href="#track">Track</a></li>
-        <li class="menu-item"><a class="menu-link" href="#evo">Lamborghini Super Trofeo</a></li>
-        <li class="menu-item"><a class="menu-link" href="#news">News</a></li>
-      </ul>
-      <a href="#" class="logo">
-        <img src="images/logo.svg" alt="logo-lamborghini"  width="83" class="logo">
-      </a>
-      <ul class="menu-list menu-right">
-                <li class="menu-item"><a class="menu-link" href="#">To buy tickets</a></li>
-        <li class="menu-item"><a class="menu-link" href="#watch-online">Watch online</a></li>
-        <li class="menu-item"><a class="menu-link" href="#contacts">Contacts</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<main class="main">
-  <section class="promo">
-    <div class="big-container">
-      <div class="promo__inner">
-        <h1 class="promo__title">LAMBORGHINI SUPER TROFEO</h1>
-        <h2 class="promo__subtitle">
-          <span>November 3-6</span>Grand Final 2022
-        </h2>
 
-        <p class="promo__text">autodrome Portimão, Portugal</p>
-        <a href="#evo" class="promo__arrow">
-          <img src="./images/arrow.svg" alt="arrow">
+<body>
+  <header class="header">
+    <div class="big-container">
+      <nav class="nav">
+        <ul class="menu-list menu-left">
+          <li class="menu-item">
+            <a class="menu-link" href="#race">About the race</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="#track">Track</a></li>
+          <li class="menu-item">
+            <a class="menu-link" href="#evo">Lamborghini Super Trofeo</a></li>
+          <li class="menu-item">
+            <a class="menu-link" href="#news">News</a></li>
+        </ul>
+        <a href="#" class="logo">
+          <img src="images/logo.svg" alt="logo-lamborghini" width="83" class="logo">
         </a>
-      </div>
+        <ul class="menu-list menu-right">
+          <li class="menu-item">
+            <a class="menu-link" href="#">To buy tickets</a></li>
+          <li class="menu-item">
+            <a class="menu-link" href="#watch-online">Watch online</a></li>
+          <li class="menu-item">
+            <a class="menu-link" href="#contacts">Contacts</a></li>
+        </ul>
+
+         <!-- <a href="#" class="logo">
+          <img src="images/logo.svg" alt="logo-lamborghini" width="83" class="logo">
+        </a> -->
+        <button class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+       
+
+        <ul class="menu-mobile menu--open">
+          <li class="menu-item">
+            <a class="menu-link" href="#race">About the race</a>
+          </li>
+          <li class="menu-item"><a class="menu-link" href="#track">Track</a></li>
+          <li class="menu-item"><a class="menu-link" href="#evo">Lamborghini Super Trofeo</a></li>
+          <li class="menu-item"><a class="menu-link" href="#news">News</a></li>
+          <li class="menu-item"><a class="menu-link" href="#">To buy tickets</a></li>
+          <li class="menu-item"><a class="menu-link" href="#watch-online">Watch online</a></li>
+          <li class="menu-item"><a class="menu-link" href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
     </div>
-  </section>
-  <section class="info">
+  </header>
+  <main class="main">
+    <section class="promo">
+      <div class="big-container">
+        <div class="promo__inner">
+          <h1 class="promo__title">LAMBORGHINI SUPER TROFEO</h1>
+          <h2 class="promo__subtitle">
+            <span>November 3-6</span>Grand Final 2022
+          </h2>
+
+          <p class="promo__text">autodrome Portimão, Portugal</p>
+          <a href="#evo" class="promo__arrow">
+            <img src="./images/arrow.svg" alt="arrow">
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="info">
     <div class="container">
 <div class="info__part info__part--first">
   <h3  class="info__title">SUPER TROPHY WORLD FINAL</h3>
@@ -130,7 +158,7 @@
 </div>
     </div>
   </section>
-  <section id="track" class="track">
+   <section id="track" class="track">
     <div class="container">
       <div class="track__inner">
         <h3 class="track__title">Trek Portimao</h3>
@@ -138,7 +166,7 @@
         <img src="./images/track.png" alt="Track layout Portimao" class="track__img">
       </div>
     </div>
-  </section>
+  </section> 
   <section id="evo" class="evo">
     
       <div class="evo-black">
@@ -178,14 +206,14 @@
           </div>
         </div>
       </div>
-       <div class="evo-white">
+       <div id="watch-online" class="evo-white">
         <div class="container">
-          <div class="evo-white__inner">
+          <div  class="evo-white__inner">
             <p class="evo-white__text">Its unique design is a natural evolution of the iconic Huracán lines, incorporating sophisticated new solutions that elevate performance and evoke emotions to levels never seen before.</p>
             <p class="evo-white__text">The unprecedented body kit was developed by Automobili Lamborghini Motorsport engineers in collaboration with Dallara Engineering and Lamborghini Centro Stile. The latter also designed the launch livery for the car in honor of the partnership between Lamborghini Squadra Corse and Roger Dubuis that began in 2018.</p>
-            <p class="evo-white__text">Among the most obvious changes to the Lamborghini Huracan Super Trofeo EVO body kit are a rear hood spoiler and top air intake that make it instantly recognizable to onlookers.</p>
+            <p  class="evo-white__text">Among the most obvious changes to the Lamborghini Huracan Super Trofeo EVO body kit are a rear hood spoiler and top air intake that make it instantly recognizable to onlookers.</p>
           </div>
-          <div id="watch-online" class="evo-white__video">
+          <div  class="evo-white__video">
             <a href="https://www.youtube.com/watch?v=x-VBawzgMjM" target="_blank" class="evo-white__video-link">
               <img src="./images/evo-videoicon.svg" alt="Click on link" class="evo-white__icon">
             <span>watch online</span>
@@ -195,7 +223,7 @@
        </div>
     
   </section>
-  <secyion class="blog">
+ <secyion class="blog">
     <div class="container">
       <h3 id="news" class="blog__title">Blog</h3>
         
@@ -326,23 +354,23 @@
     
     <div class="footer__bottom">
        <a class="footer__bottom-link"target="_blank" href="https://www.instagram.com/varvara_prokopchuk/">Design by Varvara Prokopchuk</a>
-     <a href="#" class="logo">
+     <a href="#">
         <img src="images/footer-logo.svg" alt="logo-lamborghini"  width="50" class="footer__logo">
       </a>
        <a class="footer__bottom-link" href="#">Privacy Policy</a>
       </div>
   </div>
   <div class="btn-up btn-up_hide">
-    <!-- <img src="./images/up-arrow.svg" alt="" class="btn-up__arrow-up"> -->
+    <img src="./images/up-arrow.svg" alt="" class="btn-up__arrow-up">
   </div>
 </footer>
-  <script
+    <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-      defer
-    >
-  </script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <!-- <script src="swiper-bundle.esm.browser.min.js"></script> -->
-  <script src="./js/index.js"></script>
+      defer>
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="swiper-bundle.esm.browser.min.js"></script> -->
+    <script src="./js/index.js"></script>
 </body>
+
 </html>
