@@ -419,7 +419,8 @@ body {
     position: relative;
     padding-top: 50px;
     margin-bottom: 100px;
-    transition: all 1s ease-out;
+    transition: all 500 ease-out;
+    cursor:all-scroll;
 }
 
 .blog__item {
@@ -615,9 +616,12 @@ body {
     width: 50px;
     height: 50px;
     opacity: 1;
+    z-index: 12;
     transform: translateY(0);
 }
-
+.btn-up__arrow-up {
+    fill: #363636;
+}
 .btn-up_hide {
     display: none;
 }
