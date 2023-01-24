@@ -81,13 +81,14 @@ body {
 
 .menu-link:hover {
     color: #9F6B08;
+    transition: all 300 ease-out;
 }
 
 .logo {
     display: flex;
     width: 83px;
     align-self: center;
-   
+
 }
 
 .promo {
@@ -418,6 +419,7 @@ body {
     position: relative;
     padding-top: 50px;
     margin-bottom: 100px;
+    transition: all 1s ease-out;
 }
 
 .blog__item {
@@ -550,6 +552,18 @@ body {
     margin-bottom: 10px;
 }
 
+.footer__contact-style:hover {
+    color: #9F6B08;
+    transition: all 300 ease-out;
+}
+/* .footer__social-style {
+    fill: #fff;
+}
+.footer__social-style:hover {
+    color: #9F6B08;
+    transition: all 300 ease-out;
+} */
+
 .social-list {
     display: flex;
     gap: 0 20px;
@@ -671,6 +685,7 @@ body {
 @media(max-width: 840px) {
 
     .menu-btn {
+        position: relative;
         display: flex;
         width: 45px;
         height: 30px;
@@ -680,13 +695,24 @@ body {
     }
 
     .menu-btn span {
+        position: absolute;
         display: flex;
-        width: 100%;
+        width: 30px;
         height: 3px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         background-color: #fff;
         z-index: 10;
+        transition: all 0.5s;
+    }
 
+    .menu-btn span:nth-of-type(2) {
+        top: calc(50% - 8px);
+    }
 
+    .menu-btn span:nth-of-type(3) {
+        top: calc(50% + 8px);
     }
 
     .menu-mobile {
@@ -716,6 +742,7 @@ body {
         font-size: 3vh;
         padding: 20px 0;
         color: #fff;
+
 
     }
 
@@ -755,6 +782,7 @@ body {
     .info__part {
         padding-top: 50px;
     }
+
     .blog__quote {
         flex-direction: column;
     }
@@ -771,15 +799,19 @@ body {
         width: 100%;
 
     }
+
     .evo-black__img {
-       margin-top: 130px;
+        margin-top: 130px;
     }
+
     .evo-white__inner {
         padding-top: 75px;
     }
-.evo-white__video {
-    margin-top: 50px;
-}
+
+    .evo-white__video {
+        margin-top: 50px;
+    }
+
     .blog,
     .blog__slider,
     .evo {
